@@ -114,9 +114,12 @@ const handleListItemClick = (e) => {
 // adding event listeners
 leftButton.addEventListener('click', handleLeftButtonClick);
 rightButton.addEventListener('click', handleRightButtonClick);
-for (const pokeListItem of pokeListItems) {
+/*for (const pokeListItem of pokeListItems) {
   pokeListItem.addEventListener('click', handleListItemClick);
-}
+}*/
+$(pokeListItem).click(function() {
+  handleListItemClick
+})
 
 
 // initialize App
