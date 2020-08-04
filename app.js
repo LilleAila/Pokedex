@@ -7,8 +7,7 @@ const pokedata = '#pokedex-image';
 var link;
 
 $('document').ready(function() {
-  //const limit = prompt('Hvor mange pokémoner')
-	const limit = 21
+  const limit = prompt('Hvor mange pokémoner')
   $.ajax({
     url: 'https://pokeapi.co/api/v2/pokemon?limit=' + limit,
     type: 'get',
