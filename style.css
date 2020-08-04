@@ -62,7 +62,7 @@ body {
 	height:85vh;
 	flex-direction:column;
 }
-#pokedex-image img {
+#pokedex-image img, #pokedex-image h1 {
 	align-self:center;
 }
 
