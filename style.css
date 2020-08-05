@@ -40,6 +40,7 @@ body {
 #pokedex-buttons {
   flex-wrap: wrap;
   display: flex;
+  column-width: 300px;
 }
 
 #pokedex-buttons li {
